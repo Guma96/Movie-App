@@ -76,6 +76,7 @@ h2 {
   width: 1.2em;
 }
 .rating h4 {
+  margin-left: 10px;
   display: inline-block;
   font-size: 1.1em;
   font-weight: 500;
