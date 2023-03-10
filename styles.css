@@ -97,3 +97,30 @@ h2 {
 .genre div {
   border: 1px solid #a0a0a0;
 }
+h3 {
+  font-weight: 500;
+  margin-top: 1.2em;
+}
+p {
+  font-size: 0.9em;
+  font-weight: 300;
+  line-height: 1.8em;
+  text-align: justify;
+  color: #a0a0a0;
+}
+.msg {
+  text-align: center;
+}
+@media screen and (max-width: 600px) {
+  .container {
+    font-size: 14px;
+  }
+  .info {
+    grid-template-columns: 1fr;
+  }
+  .poster {
+    margin: auto;
+    width: auto;
+    max-height: 10.8em;
+  }
+}
